@@ -1,31 +1,14 @@
-html {
-    background-image: linear-gradient(to top, #FFFFFF 0%, #ffffff 100%);
-}
-
-body {
-    display: grid;
-    justify-content: center;
-    background-image: linear-gradient(to top, #FFFFFF 0%, #68024d 100%);
-
-}
-
-.column {
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(to top, #FFFFFF 0%, #68024d 100%);
-}
-
 .emblem {
     display: flex;
     justify-content: center;
-    width: 1223px;
-    padding-top: 50px;
-    margin-top: 30px;
+    margin-top: 40px;
     padding: 0;
+    background-image: linear-gradient(to top, #FFFFFF 50%, #68024d 100%);
 }
 
 .emblem img {
-    width: 1174.08px;
+    width: 1372px;
+    margin-top: 30px;
 }
 
 .position {
@@ -34,8 +17,7 @@ body {
     column-gap: 32px;
     align-items: center;
     margin-top: 30px;
-    justify-content: start;
-    
+    justify-content: center;
 }
 
 .position div h1 {
