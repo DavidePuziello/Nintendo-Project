@@ -4,6 +4,8 @@
     margin-top: 40px;
     padding: 0;
     background-image: linear-gradient(to top, #FFFFFF 50%, #68024d 100%);
+    margin-left: -8px;
+    margin-right: -8px;
 }
 
 .emblem img {
