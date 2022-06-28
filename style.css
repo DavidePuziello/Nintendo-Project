@@ -11,7 +11,7 @@
 
 .emblem img {
     width: 1372px;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .position {
@@ -69,6 +69,7 @@
     padding: 17px 22px;
     animation-timing-function: ease-in-out;
     animation-duration: 1s;
+}
 
 .header
 {
