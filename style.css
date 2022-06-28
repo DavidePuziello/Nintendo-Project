@@ -1,3 +1,4 @@
+
 .carousel {
     display: flex;
     width: 100%;
@@ -8,7 +9,7 @@
     padding-left: 10px;
 }
 
-.first , h1 {
+.uno , h1 {
     color: #484848;
     height: 50px;
 }
@@ -115,4 +116,275 @@
 
         width: 200px;
     }
+
+.emblem {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 0;
+    background-image: linear-gradient(to top, #FFFFFF 50%, #68024d 100%);
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.emblem img {
+    width: 1372px;
+    margin-top: 60px;
+}
+
+.position {
+    display: grid;
+    grid-template-columns: 190px 670.188px 257.328px;
+    column-gap: 32px;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.position div h1 {
+    font-family: museo-sans, -apple-system, BlinkMacSystemFont, sans-serif;
+    color: rgb(72, 72, 72);
+    font-size: 28px;
+}
+
+.teen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 12px;
+    cursor: pointer;
+    font-family: museo-sans, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.teen p {
+    font-size: 12px;
+}
+
+.teen img {
+    width: 50px;
+    height: 100px;
+}
+
+.position div a {
+    background-color: rgb(230, 0, 18);
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: bold;
+    font-family: museo-sans, -apple-system, BlinkMacSystemFont, sans-serif;
+    height: 18px;
+    width: 200px;
+}
+
+.position div a:hover {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(172, 0, 13);
+    background-color: rgb(172, 0, 13);
+    transition: all 300ms ease-in-out 0s;
+    padding: 17px 22px;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+}
+
+.header
+
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+	justify-content: space-between;
+	max-width: 100%;
+	min-width: 100%;
+	border-bottom: #b3b3c2 1px solid;
+	height: 52px;
+	-webkit-box-align: center;
+	margin-top: -5px;
+	
+}
+.container {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1000;
+   background-color: white;
+}
+
+
+.header2{
+	margin-top: 10px;
+	border-bottom: #b3b3c2 1px solid;
+	height: 28px;
+}
+*{
+	font-size: 14px;
+	
+}
+body{
+	border: 0px;
+	margin: 0px;
+}
+
+.croce:hover{
+	color: red;
+}
+.drop_button {
+	background-color: white;
+	border: none;
+	cursor: pointer;
+	color: #484848;
+	
+
+}
+
+input{
+	border: none;
+	width: 250px;
+}
+input::placeholder{
+	color: #484848;
+	font-size: 12px;
+}
+input:hover::placeholder{
+	color:#e60012;
+}
+.primo-header{
+	display: flex;
+	align-items: center;
+}
+.dropdown {
+position: relative;
+display: inline-block;
+margin-left: 10px;
+margin-right: 10px;
+
+}
+
+
+a{
+	text-decoration: none;
+	color: #484848;
+}
+a:hover{
+	color: #e60012;
+}
+
+.dropdown_content{
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	
+}
+.dropdown_content a {
+	color: #484848;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown:active .dropdown_content{
+display: block;}
+.drop_button:hover{
+	color: red;
+	transition: 0.5s;
+}
+li{
+	list-style-type: none;
+}
+.right{
+	margin-right: 8px;
+}
+.link-right{
+	text-decoration: none;
+	color: #484848;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.link-right:hover{
+	color: red;
+	transition: 0.5s;
+}
+.news:hover{
+	
+	color: red;
+	transition: 0.5s;
+
+}
+ul{
+	display: flex;
+	
+}
+.header2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.logo-nintendo{
+	background-color: #e60012;
+	height: 50px;
+	margin-left: 0px;
+}
+.linea{
+border-bottom: 1px #484848 solid;
+min-width: 81%;
+max-width: 81%;
+margin-left: 5px;
+
+}
+.linea:hover{
+	border-bottom: 1px solid #e60012;
+}
+.linea:hover >.lente{
+	color: #e60012;
+}
+.lente{
+	color: #484848;
+}
+.lente:hover {
+	color: #e60012;
+}
+
+
+
+@media screen and (max-width: 1023px) {
+	a{
+		display: none;
+		
+	}
+	input{
+		display: none;
+	}
+	button{
+		display: none;
+	}
+	span{
+		display: none;
+	}
+	.header{
+		background-color: #e60012;
+		height: 51px;
+		border-bottom: none;
+	}
+
+	.linea{
+		display: none;
+	}
+	.container {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		z-index: 1000;
+	}
+	.header2{
+		display: none;
+	}
+	
+
 }
