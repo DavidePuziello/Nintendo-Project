@@ -387,3 +387,77 @@ margin-left: 5px;
 	
 
 }
+
+.onlinesto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    width: 88%;
+    /* margin-right: 20px; */
+}
+
+
+
+.banner {
+    /* width: 90%;
+   margin: 20px 20px 20px;
+   display: flex;
+   justify-content: center; */
+   display: block;
+   min-height: 1px;
+   width: 100%;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;}
+
+.inlinedesk {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.shop-btn {
+    /* width: 200px;
+    height: 200px */
+    background-color: rgb(255, 17, 0);
+    padding: 6px 12px;
+    margin: 20px;
+    border-radius: 6px; 
+    justify-content: center;
+    transition: 0.7s ease;
+    text-align: center;
+    width: 10em;
+    box-sizing: content-box;  
+    float: right;
+}
+
+.shop-btn:hover{
+    /* width: 500px;
+    height: 100px;
+    justify-content: center; */
+    transform: scale(1.1);
+   
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bodyy {
+    color: #484848;
+    font-size: 1.50em;
+    /* font-family: museo-sans, -apple-system, BlinkMacSystemFont, sans-serif; */
+    display: flex;
+    justify-content: center;
+}
+
+.span1:hover {
+    color: #FFFFFF;
+
+
+}
