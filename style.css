@@ -1,0 +1,132 @@
+
+.carousel2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+.container {
+    padding-left: 10px;
+}
+
+.first , h1 {
+    color: #484848;
+    height: 50px;
+    
+}
+h1{
+    margin-left: 40px;
+}
+
+.all{
+    border-bottom: #b3b3c2 1px solid;
+}
+
+.img:hover {
+    transition: transform 200ms ease-in-out 25ms;
+    transform: translateY(-1rem);
+}
+.card2 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 1px solid rgba(200, 212, 212, 0.856);
+    border-radius: 5px;
+    min-width: 230px;
+    max-width: 230px;
+    max-height: 300px;
+    min-height: 300px;
+
+}
+
+.titolo {
+    color: #484848;
+}
+
+.img {
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+}
+
+.link{
+    text-decoration: none;
+    color: initial;
+}
+
+.second {
+    color: #484848;
+    font-weight: 100;
+}
+
+.title-digital {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.Digital{
+ margin-right: 1rem;
+ padding-right: 1rem;
+ border-right: 1px solid #dadada;
+}
+.link2{
+   text-decoration: none;
+   border-bottom: 2px solid #e60012;
+   color: #e60012;
+    
+}
+.link2:hover{
+    color: #ac000d;
+    border-bottom: 2px solid #ac000d;
+}
+.red{
+    color: #e60012;
+}
+.img2{
+    border-radius: 0px;
+    color: #e60012;
+    float: right;
+}
+.pulsante{
+    box-sizing: border-box;
+    height: 58%;
+    position: absolute;
+    width: 50px;
+    margin: 0px;
+     background: rgba(0, 0, 0, 0.3);
+    color: rgb(218, 218, 218);
+    right: 0px;
+    z-index: 10;
+    transform: translateZ(0px);
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    outline-offset: -2px;
+    border-radius: 0.25rem 0px 0px 0.25rem;
+    font-size: 50px;
+    opacity: 0;
+}
+.pulsante:hover > svg{
+    transform: scale(calc(1.2));
+}
+.pulsante:hover{
+    background-color: #00000099;
+}
+
+.carousel2:hover > .pulsante{
+
+    transform-origin: 50% 50%;
+    transition: transform 200ms ease-in-out 25ms;
+    opacity: 1;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .card2 {
+      
+        width: 200px;
+    }
+}
