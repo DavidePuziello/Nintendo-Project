@@ -116,7 +116,7 @@
 
         width: 200px;
     }
-
+}
 .emblem {
     display: flex;
     justify-content: center;
@@ -204,7 +204,7 @@
 	margin-top: -5px;
 	
 }
-.container {
+.contenitore {
     position: fixed;
     top: 0px;
     left: 0px;
@@ -219,10 +219,7 @@
 	border-bottom: #b3b3c2 1px solid;
 	height: 28px;
 }
-*{
-	font-size: 14px;
-	
-}
+
 body{
 	border: 0px;
 	margin: 0px;
@@ -375,7 +372,7 @@ margin-left: 5px;
 	.linea{
 		display: none;
 	}
-	.container {
+	.contenitore {
 		position: fixed;
 		top: 0px;
 		left: 0px;
