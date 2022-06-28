@@ -1,3 +1,75 @@
+
+.emblem {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 0;
+    background-image: linear-gradient(to top, #FFFFFF 50%, #68024d 100%);
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.emblem img {
+    width: 1372px;
+    margin-top: 30px;
+}
+
+.position {
+    display: grid;
+    grid-template-columns: 190px 670.188px 257.328px;
+    column-gap: 32px;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.position div h1 {
+    font-family: museo-sans, -apple-system, BlinkMacSystemFont, sans-serif;
+    color: rgb(72, 72, 72);
+    font-size: 28px;
+}
+
+.teen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 12px;
+    cursor: pointer;
+    font-family: museo-sans, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.teen p {
+    font-size: 12px;
+}
+
+.teen img {
+    width: 50px;
+    height: 100px;
+}
+
+.position div a {
+    background-color: rgb(230, 0, 18);
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: bold;
+    font-family: museo-sans, -apple-system, BlinkMacSystemFont, sans-serif;
+    height: 18px;
+    width: 200px;
+}
+
+.position div a:hover {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(172, 0, 13);
+    background-color: rgb(172, 0, 13);
+    transition: all 300ms ease-in-out 0s;
+    padding: 17px 22px;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+
 .header
 {
     display: flex;
@@ -59,7 +131,7 @@ input::placeholder{
 input:hover::placeholder{
 	color:#e60012;
 }
-.first-header{
+.primo-header{
 	display: flex;
 	align-items: center;
 }
@@ -194,4 +266,5 @@ margin-left: 5px;
 		display: none;
 	}
 	
+
 }
