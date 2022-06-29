@@ -4,6 +4,7 @@
     width: 100%;
     overflow: hidden;
     padding-top: 10px;
+    padding-left: 20px;
     
 }
 .container {
@@ -30,11 +31,13 @@
     margin: 10px;
     border: 1px solid rgba(200, 212, 212, 0.856);
     border-radius: 5px;
-     min-width: 250px;
-     max-width: 250px;
+     min-width: 270px;
+     max-width: 270px;
 }
+
 .titolo {
     color: #484848;
+    padding-left: 20px;
 }
 
 .img {
@@ -81,7 +84,7 @@
     color: #e60012;
     float: right;
 }
-.pulsante{
+.bottone{
     box-sizing: border-box;
     height: 285px;
     position: absolute;
@@ -100,25 +103,20 @@
     font-size: 50px;
     opacity: 0;
 }
-.carousel:hover > .pulsante{
+.carousel:hover > .bottone{
 
     transform-origin: 50% 50%;
     transition: transform 200ms ease-in-out 25ms;
     opacity: 1;
 }
-.pulsante:hover > svg{
+.bottone:hover > svg{
     transform: scale(calc(1.2));
 }
-.pulsante:hover{
+.bottone:hover{
     background-color: #00000099;
 }
 
-@media screen and (max-width: 768px) {
-    .card {
 
-        width: 200px;
-    }
-}
 .emblem {
     display: flex;
     justify-content: center;
@@ -352,14 +350,13 @@ margin-left: 5px;
 
 
 @media screen and (max-width: 1023px) {
-	a{
-		display: none;
-		
+	 .right{
+		display: none; 
 	}
 	input{
 		display: none;
 	}
-	button{
+	.drop_button{
 		display: none;
 	}
 	span{
@@ -384,9 +381,18 @@ margin-left: 5px;
 	.header2{
 		display: none;
 	}
-	
+    .carousel{
+     
 
+    }
 }
+@media screen and (max-width: 768px) {
+    .card {
+
+        width: 270px;
+    }
+}
+
 
 .onlinesto {
     display: flex;
