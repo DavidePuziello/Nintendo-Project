@@ -526,10 +526,10 @@ margin-left: 5px;
 .carousel2 {
     display: flex;
     flex-direction: row;
-    margin-left: 70px;
+    margin-left: 90px;
     overflow: hidden;
     position: relative;
-    max-width: 86%;
+    max-width: 87%;
     padding-top: 10px;
 }
 
@@ -537,14 +537,6 @@ margin-left: 5px;
     padding-left: 10px;
 }
 
-.first , h1 {
-    color: #484848;
-    height: 50px;
-    
-}
-h1{
-    margin-left: 40px;
-}
 
 .all{
     border-bottom: #b3b3c2 1px solid;
