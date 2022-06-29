@@ -1,3 +1,46 @@
+.qsection {
+    display: grid;
+    grid-template-columns: 480.672px 631.328px;
+    grid-template-rows: 37.7969px 381.328px 71.3906px;
+    grid-template-areas: 
+    "header ."
+    "image image"
+    "foot button";
+    height: 554.516px;
+    row-gap: 32px;
+    justify-content: center;
+}
+
+.header {
+    grid-area: header;
+}
+
+.header h1 {
+    color: #484848;
+    width: 214.34px;
+    height: 37.8px;
+}
+
+.image {
+    grid-area: image;
+}
+
+.foot {
+    grid-area: foot;
+    color: #484848;
+    font-family: museo-sans, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 20px;
+    align-self: center;
+}
+
+.button {
+    grid-area: button;
+    display: flex;
+    align-items: center;
+}
+
+.button a {
+=======
 
 .carousel {
     display: flex;
@@ -168,11 +211,21 @@
 }
 
 .position div a {
+
     background-color: rgb(230, 0, 18);
     padding: 15px 20px;
     text-decoration: none;
     border-radius: 6px;
     color: white;
+    font-size: 1.125;
+    font-weight: bold;
+    font-family: museo-sans, -apple-system, BlinkMacSystemFont, sans-serif;
+    height: 18px;
+    width: 95.5px;
+}
+
+.button a:hover {
+
     font-size: 1.125rem;
     font-weight: bold;
     font-family: museo-sans, -apple-system, BlinkMacSystemFont, sans-serif;
@@ -189,6 +242,7 @@
     padding: 17px 22px;
     animation-timing-function: ease-in-out;
     animation-duration: 1s;
+}
 }
 
 .header
