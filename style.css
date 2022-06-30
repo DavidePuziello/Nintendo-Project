@@ -41,9 +41,7 @@
     display: flex;
     align-items: center;
 }
-.button:hover{
-    
-}
+
 
 .carousel {
     display: flex;
@@ -449,10 +447,7 @@ margin-left: 5px;
 	.header2{
 		display: none;
 	}
-    .carousel{
-     
-
-    }
+ 
 }
 @media screen and (max-width: 768px) {
     .card {
@@ -670,16 +665,18 @@ margin-left: 5px;
 
 .box-image {
     position: relative;
-    width: 100%;
+    width: 275px;
     border: color red 10px;
     display: block;
     border-radius: 4px;
    
+   
      
 }
+
 .immagine1 {
-    width: 200px;
-    height: 200px; 
+    width: 275px;
+    height: 275px;
     position:relative;
     overflow: hidden;
     border-radius: 4px;
@@ -687,7 +684,8 @@ margin-left: 5px;
 
 .cover {
     object-fit: contain;
-    max-width: 200px;
+    max-width: 275px;
+    max-height: 275px;
     position: absolute;
     transition: 0.5s ease;
     border-radius: 4px;
@@ -700,7 +698,8 @@ margin-left: 5px;
     position: relative;
     left: 0;
     object-fit: contain;
-    max-width: 200px;
+    max-width: 275px;
+    max-height: 275px;
     transition: 0.5s ease;
     border-radius: 4px;
     transform: scale(1.1);
@@ -720,11 +719,15 @@ margin-left: 5px;
 
 
 
-.container {
+.container3 {
     display: flex;
-    justify-content: space-around;
     flex-direction: row;
+    justify-content: center;
     border-radius: 4px;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    gap: 15px;
 }
 
 
@@ -735,7 +738,7 @@ margin-left: 5px;
 }
 
 @media screen and (max-width: 768px){
-    .container {
+    .container3 {
         display: grid;
         border-radius: 4px;
         grid-template-columns: 1fr 1fr ;
