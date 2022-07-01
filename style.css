@@ -88,6 +88,10 @@
     width: 100%;
     margin: auto;
 
+
+}
+.fufi{
+    border-bottom: 1px solid #b3b3c2;
 }
 
 .img {
@@ -340,6 +344,7 @@ margin-right: 10px;
 .news {
     color: #484848;
     text-decoration: none;
+    font-size: 12px;
 }
 
 .dropdown_content{
@@ -727,6 +732,7 @@ margin-left: 5px;
     width: 100%;
     margin: auto;
     gap: 15px;
+    border-bottom: #b3b3c2 1px solid;
 }
 
 
@@ -803,9 +809,7 @@ margin-left: 5px;
     transition: transform 200ms ease-in-out 25ms;
     transform: translateY(-1rem);
 }
-.move2{
-    
-}
+
 
 .price {
     font-weight: bold;
